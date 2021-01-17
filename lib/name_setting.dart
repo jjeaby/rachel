@@ -14,19 +14,19 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Name(),
+      home: NameSetting(),
     );
   }
 }
 
-class Name extends StatefulWidget {
-  Name({Key key}) : super(key: key);
+class NameSetting extends StatefulWidget {
+  NameSetting({Key key}) : super(key: key);
 
   @override
-  _NameState createState() => _NameState();
+  _NameSettingState createState() => _NameSettingState();
 }
 
-class _NameState extends State<Name> {
+class _NameSettingState extends State<NameSetting> {
   var mainColor = Color(0XFF0088FF);
 
   @override
